@@ -1,9 +1,7 @@
 in_str = input("please input.\n")
-real_egoing = "11"
-real_k8805 = "ab"
-if real_egoing == in_str:
-    print("Hello!, egoing")
-elif real_k8805 == in_str:
-    print("Hello!, k8805")
+real_egoing = "egoing"
+real_k8805 = "k8805"
+if real_egoing == in_str or real_k8805 == in_str:
+    print("Hello!")
 else:
     print("Who are you?")
